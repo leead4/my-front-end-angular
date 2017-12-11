@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'ch-custom';
+  src: url("/fonts/ch-custom.eot?-s21s7e");
+  src: url("/fonts/ch-custom.eot?#iefix-s21s7e") format("embedded-opentype"), url("/fonts/ch-custom.woff?-s21s7e") format("woff"), url("/fonts/ch-custom.ttf?-s21s7e") format("truetype"), url("/fonts/ch-custom.svg?-s21s7e#ch-custom") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="ch-icon-"], [class*=" ch-icon-"] {
+  font-family: 'ch-custom';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.ch {
+  display: inline-block;
+  transform: translate(0, 0);
+  background: no-repeat left .1rem; }
+
+.ch-large {
+  font-size: 2rem;
+  vertical-align: middle; }
+
+.ch-icon-plug:before {
+  content: "\e600"; }
+
+.ch-icon-points:before {
+  content: "\e601"; }
+
+.ch-icon-bariatrics:before {
+  content: "\e602"; }
+
+.ch-icon-cardiology:before {
+  content: "\e603"; }
+
+.ch-icon-ambulance:before {
+  content: "\e604"; }
+
+.ch-icon-orthopedics:before {
+  content: "\e605"; }
+
+.ch-icon-gastroenterology:before {
+  content: "\e606"; }
+
+.ch-icon-facility:before {
+  content: "\e607"; }
+
+.ch-icon-primary-care:before {
+  content: "\e608"; }
+
+.ch-icon-urgent-care:before {
+  content: "\e609"; }
+
+.ch-icon-dentistry:before {
+  content: "\e60a"; }
+
+.ch-icon-adinfo:before {
+  content: "\e60b"; }
+
+.ch-icon-micro-donut:before {
+  content: "\e800"; }
+
+.ch-icon-senior-living:before {
+  content: "\e801"; }
+
+.ch-icon-oncology:before {
+  content: "\e900"; }
+
+.ch-icon-womenshealth:before {
+  content: "\e901"; }
+
+.ch-icon-opthalmology:before {
+  content: "\e902"; }
+
+.ch-icon-branding:before {
+  content: "\e903"; }
+
+.ch-icon-recruitment:before {
+  content: "\e904"; }
+
+.ch-icon-diabetes:before {
+  content: "\e905"; }
+
+.ch-icon-neurology:before {
+  content: "\e906"; }
+
+.ch-icon-quality:before {
+  content: "\e907"; }
+
+.ch-icon-organization:before {
+  content: "\e908"; }
+
+.ch-icon-clariture-logo:before {
+  content: "\e90b"; }
+
+.ch-icon-leadgen-logo:before {
+  content: "\e909"; }
+
+.ch-icon-leadnav-logo:before {
+  content: "\e90a"; }
+
+.icon-touch-point:before {
+  content: "\e90d"; }
