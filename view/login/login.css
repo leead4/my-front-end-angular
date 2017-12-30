@@ -1,3 +1,28 @@
+
+body {
+  background-color: #418A3B;
+}
+
 .login {
+  background-color: #699663; 
   border: 1px solid gray;
 }
+
+.login > form {
+  background-color: #82B37C;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  width: 30%;
+  height: auto;
+}
+
+.login > div  
+.ch-icon-clariture-logo 
+.ch-icon-leadnav-logo {
+  display: inline-block;
+  background-color: red;
+
+}
+
+
+
