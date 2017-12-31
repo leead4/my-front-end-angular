@@ -7,6 +7,8 @@ body {
 }
 
 .login {
+  display: flex;
+  justify-content: center;
   border-radius: 1%;
   width: 100%;
   margin-top: 10%;
@@ -49,7 +51,9 @@ form div:nth-child(3){
 form div:nth-child(1),
 form div:nth-child(2),
 form div:nth-child(1)::before,
-form div:nth-child(2)::before {
+form div:nth-child(2)::before,
+form div:nth-child(1)::after,
+form div:nth-child(2)::after {
 	display: inline-block;
   	color: #fff;
   	font-size: 1.5em;
