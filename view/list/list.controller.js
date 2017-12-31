@@ -17,19 +17,15 @@
 
         $scope.hiddenBooks = [];
         
-        $scope.hideShowBook = function(book) {
-          console.log($scope.hiddenBooks);
-            // first check if book is in hidden books array
-            if ($scope.hiddenBooks.includes(book)){
-            // if in array remove it
-                let target = $scope.hiddenBooks.indexOf(book);
-                $scope.hiddenBooks.splice(target, 1); 
-            }else{
-              $scope.hiddenBooks.push(book);
-
-            }
-            return $scope.hiddenBooks
-        }
+    $scope.hideShowBook = function(book) {
+      if ($scope.hiddenBooks.includes(book)){
+        let target = $scope.hiddenBooks.indexOf(book);
+        $scope.hiddenBooks.splice(target, 1); 
+      }else{
+        $scope.hiddenBooks.push(book);
+      }
+        return $scope.hiddenBooks
+      }
 
 }
 
