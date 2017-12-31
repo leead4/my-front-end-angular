@@ -15,13 +15,9 @@
       { title: "To Kill a Mockingbird", author: "Harper Lee" }
     ];
 
-    
     $scope.removeBook = function(index) {
       $scope.books[index].title = false;
-
     };
-
-   
 
   }
 
