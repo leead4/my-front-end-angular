@@ -1,8 +1,10 @@
-<div class="list" ng-repeat="book in books">
+<div class="list">
   <h1>{{pageTitle}}</h1>
-  <div class="book" ng-show="bookIsVisible">
+  <div ng-repeat="book in books">
+  <div class="book" ng-if="book.title">
   	<h1>{{book.title}}</h1>
   	<h3>{{book.author}}</h3>
-  	<button ng-click="hideThisBook($index)">HideMe</button>
+  	<button ng-click="removeBook($index)">HideMe</button>
   </div>
+ </div>
 </div>
