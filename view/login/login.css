@@ -5,24 +5,38 @@ body {
 
 .login {
   background-color: #699663; 
+  display: flex;
   border: 1px solid gray;
+  justify-content: center;
 }
 
 .login > form {
   background-color: #82B37C;
-  /*display: flex;*/
-  /*justify-content: center;*/
   width: 30%;
   height: auto;
 }
 
-.login > div  
-.ch-icon-clariture-logo 
-.ch-icon-leadnav-logo {
+.ch-icon-clariture-logo {
   display: inline-block;
-  background-color: red;
+  margin-right: 5% ;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 3%;
+  border-right: 1px solid #fff;
+}
+
+
+
+.ch-icon-leadnav-logo {
+ display: inline-block;
+ margin-left: 5% ;
+ color: #fff;
+ font-size: 1.3em;
+
 
 }
+
+
 
 
 
