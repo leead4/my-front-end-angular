@@ -7,10 +7,8 @@ body {
 }
 
 .login {
-  display: flex;
   border-radius: 1%;
-  width: 150%;
-  justify-content: center;
+  width: 100%;
   margin-top: 10%;
 }
 
@@ -31,14 +29,6 @@ form div:nth-child(3){
 	padding: 3%;
 	margin: 2.5% auto;
 	width: 100%;
-	box-shadow: #D3D3D3;
-}
-
-.login > form > div > input[type=text]{
-	padding: 3%;
-	margin: 2.5% auto;
-	width: 100%;
-	box-shadow: #D3D3D3;
 }
 
 .login > form > div > input::placeholder {
@@ -55,27 +45,24 @@ form div:nth-child(3){
 
 }
 
-.ch-icon-clariture-logo {
-  display: inline-block;
-  color: #fff;
-  font-size: 2em;
-  border-right: 1px solid #fff;
+
+form div:nth-child(1),
+form div:nth-child(2),
+form div:nth-child(1)::before,
+form div:nth-child(2)::before {
+	display: inline-block;
+  	color: #fff;
+  	font-size: 1.5em;
+
 }
 
-.ch-icon-clariture-logo::before {
-	padding-right: 3%;
+
+form div:nth-child(1){
+	border-right: 1px solid #fff;
+
 }
 
 
-.ch-icon-leadnav-logo {
- display: inline-block;
- color: #fff;
- font-size: 2em;
-}
-
-.ch-icon-leadnav-logo::before {
-	padding-left: 5%;
-}
 
 
 
