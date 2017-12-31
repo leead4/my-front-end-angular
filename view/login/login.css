@@ -1,39 +1,68 @@
 
 body {
   background-color: #418A3B;
+  display: flex;
+  justify-content: center;
+
 }
 
 .login {
+  /*width: max-content;*/
   background-color: #699663; 
   display: flex;
-  border: 1px solid gray;
+  border-radius: 1%;
+  /*border: 1px solid gray;*/
   justify-content: center;
+  margin-top: 10%;
 }
 
 .login > form {
+  padding: 10%;
+  border: transparent;
   background-color: #82B37C;
-  width: 30%;
-  height: auto;
+}
+
+.login > form > div > input{
+	padding: 3%;
+	margin: 2.5% auto;
+	width: 100%;
+	box-shadow: #D3D3D3;
+}
+
+.login > form > div > input[type=text]{
+	padding: 3%;
+	margin: 2.5% auto;
+	width: 100%;
+	box-shadow: #D3D3D3;
+}
+
+.login > form > div > input::placeholder {
+	color: #D3D3D3;
+}
+
+.login > form > div > button {
+	background-color: #4F7949;
+	width: 100%;
+	color: #fff;
+	border: transparent;
+	border-radius: 2.5%;
+
 }
 
 .ch-icon-clariture-logo {
   display: inline-block;
-  margin-right: 5% ;
   color: #fff;
   font-size: 1.3em;
-  padding: 3%;
   border-right: 1px solid #fff;
 }
 
 
 
+
 .ch-icon-leadnav-logo {
  display: inline-block;
- margin-left: 5% ;
  color: #fff;
  font-size: 1.3em;
-
-
 }
 
 
